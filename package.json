@@ -3,15 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1"
+    "@babel/polyfill": "^7.0.0",
+    "ramda": "^0.26.1",
+    "ramda-adjunct": "^2.13.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-helmet": "^5.2.0",
+    "react-scripts": "2.1.1",
+    "styled-components": "^4.1.2",
+    "styled-map": "^3.2.0-rc.1",
+    "styled-normalize": "^8.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +27,21 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "enzyme-to-json": "^3.3.5",
+    "husky": "^1.2.1",
+    "import-sort": "^5.2.0",
+    "import-sort-style-airkro": "^0.1.5",
+    "jest-dom": "^3.0.0",
+    "jest-enzyme": "^7.0.1",
+    "jest-in-case": "^1.0.2",
+    "jest-styled-components": "^6.3.1",
+    "lint-staged": "^8.1.0",
+    "react-test-renderer": "^16.7.0-alpha.2",
+    "react-testing-library": "^5.4.0",
+    "standard": "^12.0.1"
+  }
 }
