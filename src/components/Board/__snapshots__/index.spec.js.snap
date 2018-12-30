@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board matches the snapshot 1`] = `
+<StyledBoard>
+  <Square
+    area="square-0"
+  />
+  <Square
+    area="square-1"
+  />
+  <Square
+    area="square-2"
+  />
+  <Square
+    area="square-3"
+  />
+  <Square
+    area="square-4"
+  />
+  <Square
+    area="square-5"
+  />
+  <Square
+    area="square-6"
+  />
+  <Square
+    area="square-7"
+  />
+  <Square
+    area="square-8"
+  />
+</StyledBoard>
+`;

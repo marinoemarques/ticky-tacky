@@ -2,15 +2,16 @@
 
 exports[`Square matches the snapshots 1`] = `
 .c0 {
-  border: 1px solid LightGray;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: White;
   color: SlateBlue;
   cursor: pointer;
-  display: inline-block;
   font-size: 16vh;
   font-weight: bold;
-  line-height: 20vh;
-  min-height: 21vh;
-  min-width: 21vh;
+  grid-area: 0;
+  justify-self: stretch;
   text-align: center;
   text-transform: uppercase;
 }
@@ -25,15 +26,16 @@ exports[`Square matches the snapshots 1`] = `
 
 exports[`Square matches the snapshots 2`] = `
 .c0 {
-  border: 1px solid LightGray;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: White;
   color: Crimson;
   cursor: pointer;
-  display: inline-block;
   font-size: 16vh;
   font-weight: bold;
-  line-height: 20vh;
-  min-height: 21vh;
-  min-width: 21vh;
+  grid-area: 0;
+  justify-self: stretch;
   text-align: center;
   text-transform: uppercase;
 }
@@ -48,15 +50,16 @@ exports[`Square matches the snapshots 2`] = `
 
 exports[`Square matches the snapshots 3`] = `
 .c0 {
-  border: 1px solid LightGray;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: White;
   color: SlateBlue;
   cursor: pointer;
-  display: inline-block;
   font-size: 16vh;
   font-weight: bold;
-  line-height: 20vh;
-  min-height: 21vh;
-  min-width: 21vh;
+  grid-area: 0;
+  justify-self: stretch;
   text-align: center;
   text-transform: uppercase;
 }

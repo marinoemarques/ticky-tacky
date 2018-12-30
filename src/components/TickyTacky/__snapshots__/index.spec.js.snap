@@ -2,11 +2,14 @@
 
 exports[`TickyTacky matches the snapshot 1`] = `
 <Fragment>
-  <h1>
-    Ticky Tacky
-  </h1>
-  <Square>
-    x
-  </Square>
+  <Header>
+    <Crimson>
+      Ticky
+    </Crimson>
+    <SlateBlue>
+      Tacky
+    </SlateBlue>
+  </Header>
+  <Board />
 </Fragment>
 `;
