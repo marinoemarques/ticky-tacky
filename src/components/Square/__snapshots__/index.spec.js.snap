@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Square matches the snapshots 1`] = `
+.c0 {
+  border: 1px solid LightGray;
+  color: SlateBlue;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16vh;
+  font-weight: bold;
+  line-height: 20vh;
+  min-height: 21vh;
+  min-width: 21vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+<span
+  className="c0"
+  onClick={[Function]}
+>
+  
+</span>
+`;
+
+exports[`Square matches the snapshots 2`] = `
+.c0 {
+  border: 1px solid LightGray;
+  color: Crimson;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16vh;
+  font-weight: bold;
+  line-height: 20vh;
+  min-height: 21vh;
+  min-width: 21vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+<span
+  className="c0"
+  onClick={[Function]}
+>
+  x
+</span>
+`;
+
+exports[`Square matches the snapshots 3`] = `
+.c0 {
+  border: 1px solid LightGray;
+  color: SlateBlue;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16vh;
+  font-weight: bold;
+  line-height: 20vh;
+  min-height: 21vh;
+  min-width: 21vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+<span
+  className="c0"
+  onClick={[Function]}
+>
+  o
+</span>
+`;

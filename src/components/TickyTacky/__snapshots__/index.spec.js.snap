@@ -1,7 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TickyTacky matches the snapshot 1`] = `
-<h1>
-  Ticky Tacky
-</h1>
+<Fragment>
+  <h1>
+    Ticky Tacky
+  </h1>
+  <Square>
+    x
+  </Square>
+</Fragment>
 `;
