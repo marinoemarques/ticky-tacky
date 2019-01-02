@@ -5,7 +5,7 @@ const StyledBoard = styled.div`
     grid-gap: 1px;
     background-color: Gray;
     grid-template-areas:
-        "quare-0 square-1 square-2"
+        "square-0 square-1 square-2"
         "square-3 square-4 square-5"
         "square-6 square-7 square-8";
     grid-template-rows: 20vh 20vh 20vh;
