@@ -7,6 +7,9 @@
   ],
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
+    "@types/enzyme": "^3.1.15",
+    "@types/ramda": "^0.25.46",
+    "@types/styled-components": "^4.1.4",
     "ramda": "^0.26.1",
     "ramda-adjunct": "^2.12.0",
     "react": "^16.7.0-alpha.2",

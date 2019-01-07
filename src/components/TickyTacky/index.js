@@ -1,13 +1,13 @@
 import * as React from 'react'
 
-import Board from '../Board'
 import styled from 'styled-components'
+
+import Board from '../Board'
 
 const Header = styled.h1`
   font-size: 2.4rem;
   line-height: 3;
 `
-
 Header.displayName = 'Header'
 
 const Crimson = styled.span`
