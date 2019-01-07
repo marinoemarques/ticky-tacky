@@ -1,14 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Header matches the snapshot 1`] = `
+.c0 {
+  font-size: 2.4rem;
+  line-height: 3;
+}
+
+<h1
+  class="c0"
+/>
+`;
+
+exports[`Tacky matches the snapshot 1`] = `
+.c0 {
+  color: SlateBlue;
+}
+
+.c0:before {
+  content: 'Tacky';
+}
+
+<span
+  class="c0"
+/>
+`;
+
+exports[`Ticky matches the snapshot 1`] = `
+.c0 {
+  color: Crimson;
+}
+
+.c0:before {
+  content: 'Ticky';
+}
+
+<span
+  class="c0"
+/>
+`;
+
 exports[`TickyTacky matches the snapshot 1`] = `
 <Fragment>
   <Header>
-    <Crimson>
-      Ticky
-    </Crimson>
-    <SlateBlue>
-      Tacky
-    </SlateBlue>
+    <Ticky />
+    <Tacky />
   </Header>
   <Board />
 </Fragment>

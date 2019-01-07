@@ -4,28 +4,35 @@ import styled from 'styled-components'
 
 import Board from '../Board'
 
-const Header = styled.h1`
+export const Header = styled.h1`
   font-size: 2.4rem;
   line-height: 3;
 `
 Header.displayName = 'Header'
 
-const Crimson = styled.span`
+export const Ticky = styled.span`
   color: Crimson;
-`
-Crimson.displayName = 'Crimson'
 
-const SlateBlue = styled.span`
-  color: SlateBlue;
+  &:before {
+    content: 'Ticky'
+  }
 `
-SlateBlue.displayName = 'SlateBlue'
+Ticky.displayName = 'Ticky'
+
+export const Tacky = styled.span`
+  color: SlateBlue;
+
+  &:before {
+    content: 'Tacky'
+  }
+`
+Tacky.displayName = 'Tacky'
 
 export default function TickyTacky () {
   return (
   <>
     <Header>
-      <Crimson>Ticky</Crimson>
-      <SlateBlue>Tacky</SlateBlue>
+      <Ticky /><Tacky />
     </Header>
     <Board />
   </>
