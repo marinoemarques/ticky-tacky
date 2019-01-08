@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`StyledSquare matches the snapshot 1`] = `
+exports[`StyledSquare matches the snapshot with no player 1`] = `
 .c0 {
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
@@ -19,4 +19,50 @@ exports[`StyledSquare matches the snapshot 1`] = `
 <span
   class="c0"
 />
+`;
+
+exports[`StyledSquare matches the snapshot with player o 1`] = `
+.c0 {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: White;
+  color: SlateBlue;
+  cursor: not-allowed;
+  font-size: 16vh;
+  font-weight: bold;
+  grid-area: 0;
+  justify-self: stretch;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+<span
+  class="c0"
+>
+  o
+</span>
+`;
+
+exports[`StyledSquare matches the snapshot with player x 1`] = `
+.c0 {
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: White;
+  color: Crimson;
+  cursor: not-allowed;
+  font-size: 16vh;
+  font-weight: bold;
+  grid-area: 4;
+  justify-self: stretch;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+<span
+  class="c0"
+>
+  x
+</span>
 `;

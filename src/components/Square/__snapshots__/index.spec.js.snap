@@ -1,3 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Square matches the snapshots 1`] = `<StyledSquare />`;
+exports[`Square matches the snapshot when played by o 1`] = `
+<StyledSquare
+  area="1"
+  player="o"
+>
+  o
+</StyledSquare>
+`;
+
+exports[`Square matches the snapshot when played by x 1`] = `
+<StyledSquare
+  area="4"
+  player="x"
+>
+  x
+</StyledSquare>
+`;
+
+exports[`Square matches the snapshot when unplayed 1`] = `
+<StyledSquare
+  area="7"
+/>
+`;
