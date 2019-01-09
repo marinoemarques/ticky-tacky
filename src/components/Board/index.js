@@ -2,14 +2,13 @@ import * as React from 'react'
 
 import { times } from 'ramda'
 
+import { INITIAL_STATE, NUMBER_OF_SQUARES, SQUARE_PLAYED } from '../../constants'
 import getPlayer from '../../utilities/getPlayer'
 import Square from '../Square'
 
-import { INITIAL_STATE, SQUARE_PLAYED } from './constants'
 import reducer from './reducer'
 import StyledBoard from './StyledBoard'
 
-const NUMBER_OF_SQUARES = 9
 const { useReducer } = React
 
 function makeSquares (state, dispatch) {

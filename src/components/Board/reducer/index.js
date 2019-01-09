@@ -1,4 +1,4 @@
-import { SQUARE_PLAYED } from '../constants'
+import { SQUARE_PLAYED } from '../../constants'
 
 export default function reducer (state, action) {
   switch (action.type) {

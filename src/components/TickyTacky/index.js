@@ -2,6 +2,7 @@ import * as React from 'react'
 
 import styled from 'styled-components'
 
+import { TACKY_COLOUR, TICKY_COLOUR } from '../../constants'
 import Board from '../Board'
 
 export const Header = styled.h1`
@@ -11,7 +12,7 @@ export const Header = styled.h1`
 Header.displayName = 'Header'
 
 export const Ticky = styled.span`
-  color: Crimson;
+  color: ${TICKY_COLOUR};
 
   &:before {
     content: 'Ticky'
@@ -20,7 +21,7 @@ export const Ticky = styled.span`
 Ticky.displayName = 'Ticky'
 
 export const Tacky = styled.span`
-  color: SlateBlue;
+  color: ${TACKY_COLOUR};
 
   &:before {
     content: 'Tacky'
@@ -30,11 +31,11 @@ Tacky.displayName = 'Tacky'
 
 export default function TickyTacky () {
   return (
-  <>
-    <Header>
-      <Ticky /><Tacky />
-    </Header>
-    <Board />
-  </>
+    <>
+      <Header>
+        <Ticky /><Tacky />
+      </Header>
+      <Board />
+    </>
   )
 }

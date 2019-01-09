@@ -1,12 +1,12 @@
 import { append } from 'ramda'
 
-import { SQUARE_PLAYED } from '../constants'
+import { SQUARES, SQUARE_PLAYED } from '../constants'
 
 import reducer from './'
 
-const moves = [4, 1]
+const moves = [SQUARES.middleCenter, SQUARES.topCenter]
 const state = { moves }
-const square = 0
+const square = SQUARES.topLeft
 
 describe('components:Board:reducer', () => {
   it('adds a move to the board when a square is played', () => {

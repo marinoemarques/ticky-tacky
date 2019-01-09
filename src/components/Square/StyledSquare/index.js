@@ -1,12 +1,18 @@
 import styled from 'styled-components'
 import styledMap from 'styled-map'
 
+import {
+  PLAYER_ONE,
+  TACKY_COLOUR,
+  TICKY_COLOUR
+} from '../../../constants'
+
 const StyledSquare = styled.span`
   align-self: stretch;
   background-color: White;
   color: ${styledMap('player', {
-    x: 'Crimson',
-    default: 'SlateBlue'
+    [PLAYER_ONE]: TICKY_COLOUR,
+    default: TACKY_COLOUR
   })};;
   cursor: ${props => props.onClick ? 'pointer' : 'not-allowed'};
   font-size: 16vh;
