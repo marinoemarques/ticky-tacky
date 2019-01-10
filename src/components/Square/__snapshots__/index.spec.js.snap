@@ -2,7 +2,7 @@
 
 exports[`Square matches the snapshot when played by o 1`] = `
 <StyledSquare
-  area="1"
+  area={1}
   player="o"
 >
   o
@@ -11,7 +11,7 @@ exports[`Square matches the snapshot when played by o 1`] = `
 
 exports[`Square matches the snapshot when played by x 1`] = `
 <StyledSquare
-  area="4"
+  area={4}
   player="x"
 >
   x
@@ -20,6 +20,6 @@ exports[`Square matches the snapshot when played by x 1`] = `
 
 exports[`Square matches the snapshot when unplayed 1`] = `
 <StyledSquare
-  area="7"
+  area={7}
 />
 `;

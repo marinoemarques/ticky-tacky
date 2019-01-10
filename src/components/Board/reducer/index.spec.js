@@ -1,6 +1,6 @@
 import { append } from 'ramda'
 
-import { SQUARES, SQUARE_PLAYED } from '../../constants'
+import { SQUARES, SQUARE_PLAYED } from '../../../constants'
 
 import reducer from './'
 
