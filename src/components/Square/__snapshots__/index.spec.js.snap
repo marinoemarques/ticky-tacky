@@ -1,5 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Square matches the snapshot when lost by o 1`] = `
+<StyledSquare
+  area={1}
+  isLoser={true}
+  player="o"
+>
+  o
+</StyledSquare>
+`;
+
 exports[`Square matches the snapshot when played by o 1`] = `
 <StyledSquare
   area={1}

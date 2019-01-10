@@ -1,12 +1,13 @@
 import * as React from 'react'
 
-import { times } from 'ramda'
+import { includes, times } from 'ramda'
 
 import {
   INITIAL_STATE,
   NUMBER_OF_SQUARES,
   SQUARE_PLAYED
 } from '../../constants'
+import getLosingSquares from '../../utilities/getLosingSquares'
 import getPlayer from '../../utilities/getPlayer'
 import Square from '../Square'
 
@@ -17,19 +18,21 @@ import StyledBoard from './StyledBoard'
 const { useEffect, useReducer } = React
 
 function makeSquares (state, dispatch) {
-  const { outcome } = state
+  const { moves, outcome: { patterns } = {} } = state
+  const losers = getLosingSquares(moves, patterns)
 
   return times(
     idx => {
       const player = getPlayer(state, idx)
-      const onClick = player || outcome
+      const onClick = player || patterns
         ? undefined
         : () => dispatch({ type: SQUARE_PLAYED, square: idx })
 
       return (
         <Square
-          key={`square-${idx}`}
           area={`square-${idx}`}
+          isLoser={includes(idx, losers)}
+          key={`square-${idx}`}
           onClick={onClick}
           player={player}
         />

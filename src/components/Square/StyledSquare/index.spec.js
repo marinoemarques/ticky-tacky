@@ -34,4 +34,14 @@ describe('StyledSquare', () => {
       >{PLAYER_TWO}</StyledSquare>
     ).first().render())).toMatchSnapshot()
   })
+
+  it(`matches the snapshot with losing player ${PLAYER_TWO}`, () => {
+    expect(toJson(shallow(
+      <StyledSquare
+        area={SQUARES.topLeft}
+        isLoser
+        player={PLAYER_TWO}
+      >{PLAYER_TWO}</StyledSquare>
+    ).first().render())).toMatchSnapshot()
+  })
 })
