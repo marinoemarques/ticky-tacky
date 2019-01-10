@@ -8,6 +8,7 @@ export const INITIAL_STATE = {
 }
 
 // Actions
+export const GAME_OVER = 'GAME_OVER'
 export const SQUARE_PLAYED = 'SQUARE_PLAYED'
 
 // Players
@@ -77,3 +78,4 @@ export const WINNING_PATTERNS = [
     SQUARES.bottomLeft
   ]
 ]
+export const MINIMUM_MOVES_TO_WIN = 5
